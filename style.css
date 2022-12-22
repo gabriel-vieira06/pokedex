@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
 
 * {
     margin: 0;
@@ -7,9 +7,9 @@
 }
 
 body {
-    background: #333;
+    background: #2B3467;
     line-height: 1.5;
-    font-family: 'Caveat', cursive;
+    font-family: 'Titillium Web', sans-serif;
 }
 
 main {
@@ -20,7 +20,7 @@ main {
 
 main > h1 {
     text-align: center;
-    color: #e4c439;
+    color: #F1F6F5;
     margin-bottom: 2rem;
     font-size: 2rem;
     text-transform: uppercase;
@@ -36,13 +36,11 @@ main > h1 {
 
 .card {
     width: 12rem auto;
-    background: #444;
-    color: #e4c439;
+    background: #3A4F7A;
     padding: 1rem;
     border-radius: 10px;
-    border-top: 0.5px solid #cebf7b;
-    border-bottom: 0.5px solid #cebf7b;
-    text-align: center;
+    border-top: 0.5px solid #82C3EC;
+    border-bottom: 0.5px solid #82C3EC;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
     position: relative;
     overflow: hidden;
@@ -55,19 +53,20 @@ main > h1 {
 }
 
 .card--id {
-    background: #cebf7b;
+    background: #82C3EC;
     width: 3rem;
-    color: #333;
+    color: #3A4F7A;
     padding: 0.1rem;
     font-weight: 700;
     position: absolute;
     border-radius: 0 0 10px 0;
+    text-align: center;
     top: 0;
     left: 0;
 }
 .card--name {
     text-transform: capitalize;
-    color: #fff;
+    color: #F1F6F5;
     font-size: 2rem;
     font-weight: 700;
 }
@@ -80,5 +79,5 @@ main > h1 {
 
 .card--details {
     font-size: 1.3rem;
-    color: #dbca80;
+    color: #82C3EC;
 }
